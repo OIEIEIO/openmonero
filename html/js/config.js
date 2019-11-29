@@ -1,17 +1,17 @@
 var config = {
     apiUrl: "http://127.0.0.1:1984/",
-    mainnetExplorerUrl: "https://xmrchain.com/",
-    testnetExplorerUrl: "https://testnet.xmrchain.com/",
-    stagenetExplorerUrl: "http://139.162.60.17:8082/",
+    mainnetExplorerUrl: "http://164.68.97.206:8081",
+    testnetExplorerUrl: "http://164.68.97.206:8081",
+    stagenetExplorerUrl: "http://164.68.97.206:8081",
     nettype: 0, /* 0 - MAINNET, 1 - TESTNET, 2 - STAGENET */
     coinUnitPlaces: 12,
-    txMinConfirms: 10,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monero
-    txCoinbaseMinConfirms: 60, // corresponds to CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW in Monero
-    coinSymbol: 'XMR',
-    openAliasPrefix: "xmr",
-    coinName: 'Monero',
-    coinUriPrefix: 'monero:',
-    addressPrefix: 18,
+    txMinConfirms: 10,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monetaverde
+    txCoinbaseMinConfirms: 60, // corresponds to CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW in Monetaverde
+    coinSymbol: 'MCN',
+    openAliasPrefix: "mcn",
+    coinName: 'MonetaVerde',
+    coinUriPrefix: 'monetaverde:',
+    addressPrefix: 6969,
     integratedAddressPrefix: 19,
     subAddressPrefix: 42,
     addressPrefixTestnet: 53,
@@ -28,6 +28,6 @@ var config = {
     idleTimeout: 30,
     idleWarningDuration: 20,
     maxBlockNumber: 500000000,
-    avgBlockTime: 120,
+    avgBlockTime: 60,
     debugMode: false
 };
