@@ -1,8 +1,8 @@
 var config = {
     apiUrl: "http://127.0.0.1:1984/",
-    mainnetExplorerUrl: "http://164.68.97.206:8081",
-    testnetExplorerUrl: "http://164.68.97.206:8082",
-    stagenetExplorerUrl: "http://164.68.97.206:8083",
+    mainnetExplorerUrl: "http://164.68.97.206:8081/",
+    testnetExplorerUrl: "http://164.68.97.206:8082/",
+    stagenetExplorerUrl: "http://164.68.97.206:8083/",
     nettype: 0, /* 0 - MAINNET, 1 - TESTNET, 2 - STAGENET */
     coinUnitPlaces: 12,
     txMinConfirms: 10,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monetaverde
