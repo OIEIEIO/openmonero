@@ -461,12 +461,12 @@ table {
 /* line 41, ../sass/screen.scss */
 [copy-to-clipboard] i {
   font-size: 14px;
-  color: #767d85;
+  color: #768579;
   cursor: pointer;
 }
 
 /* line 47, ../sass/screen.scss */
 .account-catchup-alert .w-form-done {
-  background-color: #5093eb;
+  background-color: #50eb7e;
   margin-top: 20px;
 }
