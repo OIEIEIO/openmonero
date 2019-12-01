@@ -1,17 +1,17 @@
-# OpenMonero - a fully open sourced implementation of MyMonero backend
+# MonetaVerde Web Wallet - a fully open sourced implementation of MyMonetaVerde backend
 
 In this example [restbed](https://github.com/Corvusoft/restbed/) is used to
 demonstrate how to provide Monero related JSON REST service. For this purpose,
  a service called Open Monero was developed.
 
 
-OpenMonero is an open source implementation of backend of
+MonetaVerde Web Wallet is an open source implementation of backend of
 https://mymonero.com/. The frontend, which includes HTML, CSS, JavaScript, was adapted
 from (and originally developed by) https://mymonero.com/.
 
-Open Monero's backend is open sourced, free
+MonetaVerde Web Wallet backend is open sourced, free
 to use, host and modify. Additionally, some features were added/changed as compared
-to MyMonero. They include:
+to MyMonetaVerde. They include:
 
  - google analytics, cloudflare, images and flash were removed.
  - frontend's html and javascript upgrades and cleanups.
@@ -29,10 +29,7 @@ to MyMonero. They include:
 
 ## Live stagenet version
 
-- [http://139.162.60.17:81](http://139.162.60.17:81)
-- [http://139.162.60.17:8100](http://139.162.60.17:8100) - MyMonero frontend
-
-This is OpenMonero running on stagnet network. You can use it to play around with it.
+This is MyMonetaVerde running on stagnet network. You can use it to play around with it.
 Please note that the live version is running on cheap VPS, which may result in
 performance issues.
 
@@ -45,12 +42,12 @@ All current changes, bug fixes and updates are done in the
 
 ## Screenshot
 
-![Open Monero](https://raw.githubusercontent.com/moneroexamples/openmonero/master/screenshot/screen1.png)
+![Open Monero](https://raw.githubusercontent.com/OIEIEIO/openmonero/monetaverde/screenshot/screen1.png)
 
 
 ## Host it yourself
 
-The Open Monero consists of four components that need to be setup for it to work:
+MyMonetaVerde has four components that need to be setup for it to work:
 
  - MySql/Mariadb database - it stores user address (viewkey is not stored!),
  associated transactions, outputs, inputs and transaction import payments information.
@@ -68,7 +65,7 @@ The Open Monero consists of four components that need to be setup for it to work
 
 #### Performance
 
-Open Monero is not as fast as MyMonero.
+MyMonetaVerde is not as fast as MyMonero.
  This is because it is basic, easy to understand and
  straight forward implementation of the backend. Thus,
  it does not use any special memory buffers/caches for transactions,
@@ -85,14 +82,14 @@ Below are example and basic instructions on how to setup up and run Open Monero 
 For other Linux operating systems, the instructions are analogical.
 
 
-#### Monero download and compilation
+#### MonetaVerde download and compilation
 
-To download and compile recent Monero follow instructions
+To download and compile recent MonetaVerde follow instructions
 in the following link:
 
 https://github.com/moneroexamples/monero-compilation/blob/master/README.md
 
-#### Compilation of the OpenMonero (don't run it yet)
+#### Compilation of the MyMonetaVerde (don't run it yet)
 
 Once Monero was downloaded and compiled, we can download Open Monero and compile it.
 In fact we could postpone compilation to later, but
