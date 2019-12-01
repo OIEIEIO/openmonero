@@ -13,7 +13,7 @@ h1 {
   padding-left: 0px;
   float: none;
   font-family: Proximanova, sans-serif;
-  color: #4f545c;
+  color: #3be384;
   font-size: 38px;
   line-height: 44px;
   font-weight: 600;
@@ -79,7 +79,7 @@ p {
   float: right;
   border: 1px solid #5093eb;
   border-radius: 3px;
-  background-color: #5093eb;
+  background-color: #50eba0;
   color: white;
 }
 .button.generate-btn.login {
@@ -87,7 +87,7 @@ p {
   margin: 56px auto 120px;
   padding: 16px 250px;
   float: none;
-  background-color: #5093eb;
+  background-color: #50eba0;
   background-image: -webkit-linear-gradient(left, #5093eb, #8680dd);
   background-image: -o-linear-gradient(left, #5093eb, #8680dd);
   background-image: linear-gradient(to right, #5093eb, #8680dd);
