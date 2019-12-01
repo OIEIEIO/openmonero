@@ -17,7 +17,7 @@
                         </div>
                     </div>
                     <div ng-show="success_page">
-                        <!--<div class="image-div-block"><img src="images/check-icon.png" width="50" alt="545a29577cb2a4e7284f6abe_check-icon.png">
+                        <div class="image-div-block"><img src="images/check-icon.png" width="50" alt="545a29577cb2a4e7284f6abe_check-icon.png">
                         </div>-->
                         <div class="header-div-block">
                             <h1 class="heading-contained">Transaction Successful</h1>
@@ -52,7 +52,6 @@
                                    data-name="Receiver Address 2" ng-model="payment_id">
                         </div>
                     </div>
-                    <!--
                     <label class="send-label" for="field4">Privacy Level</label>
                     <select class="w-input" id="field4" name="Select-a-number" data-name="Select a number"
                             required="required" ng-model="mixins">
@@ -61,8 +60,6 @@
                         <option value="20">Even higher (ring size 21)</option>
                         <option value="40">Paranoid (ring size 41)</option>
                     </select>
-                    -->
-                    <!--
                     <label class="send-label" for="field5">Priority Level (adjusts miner fee)</label>
                     <select class="w-input" id="field5" name="Select-a-number" data-name="Select a number"
                             required="required" ng-model="priority">
@@ -71,7 +68,7 @@
                         <option value="3">High (if you are in hurry and if there is some backlog of txs)</option>
                         <option value="4">Paranoid (absolute priority, but the most expensive obviously)</option>
                     </select>
-                    -->
+                    
                     <input class="w-button send-btn" id="form-submit" type="submit" value="Send Payment"
                            data-wait="Please wait..." ng-disabled="submitting">
                 </form>
@@ -108,12 +105,12 @@
                     <div class="move-text-div">
                         <div class="middle-text receive">{{sent_tx.tx_key}}</div>
                     </div>
-                    <!--
+                    
                     <label class="send-label" >Soon should be visible in a blockchain explorer</label>
                     <div class="move-text-div">
                         <a class="login-link" href="{{ sent_tx.explorerLink }} " target="_blank">{{ sent_tx.explorerLink }}</a>
                     </div>
-                    -->
+                    
                     <input class="w-button send-btn" type="submit" value="Send Another Payment" data-wait="Please wait...">
                 </form>
             </div>
