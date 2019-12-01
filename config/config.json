@@ -8,7 +8,7 @@
   },
   "blockchain-path" :
   {
-    "_comment" : "if paths are empty, default Monero paths will be used",
+    "_comment" : "if paths are empty, default MonetaVerde paths will be used",
     "mainnet"  : "",
     "testnet"  : "",
     "stagenet" : ""
